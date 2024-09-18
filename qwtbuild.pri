@@ -54,9 +54,8 @@ win32 {
     # might need a debug version.
     # Enable debug_and_release + build_all if you want to build both.
 
-    # CONFIG           += debug_and_release
-    # CONFIG           += build_all
-    CONFIG           += release
+    CONFIG           += debug_and_release
+    CONFIG           += build_all
 }
 else {
 
